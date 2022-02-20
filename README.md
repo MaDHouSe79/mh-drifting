@@ -11,7 +11,7 @@
 * Open your inventory, drag the drift item to use.
 * if you done with drifting, open your inventory drag the drift item to use.
 * the vecihle stop drifting if you go offline of store the vehicle.
-* as long as you are driving, the drif mod will be enable untill your are disable it via inventory drap to use.
+* as long as you are driving, the drif mod will be enable untill your are disable it via inventory drag to use again.
 
 Enjoy driving sideways 👊😎
 
