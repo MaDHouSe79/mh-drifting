@@ -1,5 +1,15 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 local driftMode = false
+
+RegisterKeyMapping('undrift', "Set Vehicle as undriftable", 'keyboard', 'F') 
+RegisterCommand('undrift', function()
+    if IsPedInAnyVehicle(PlayerPedId()) then
+        if not driftMode then
+            TriggerEvent('qb-drifting:client:drifmode')
+        end
+    end
+end, false)
+
 RegisterNetEvent('qb-drifting:client:drifmode', function()
 	local ped = PlayerPedId()
 	if IsPedInAnyVehicle(ped) then
