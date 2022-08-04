@@ -38,7 +38,7 @@ RegisterNetEvent('qb-drifting:client:drifmode', function()
 		end
 	    else
                 driftMode = false
-		QBCore.Functions.Notify("You are not the owner", "error", 1000)
+		QBCore.Functions.Notify(Lang:t('info.not_the_owner'), "error", 2000)
 	    end
 	end, props.plate)
     end
