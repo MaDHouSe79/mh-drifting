@@ -1,7 +1,7 @@
-## qb-drfting
+## mh-drfting
 
 ## Install 
-- place qb-drifting in [qb] folder
+- place mh-drifting in [qb] folder
 - add the icon to your qbcore resources/[qb]/qb-core/shared/items.lua file
 - copy the icon in img folder to your resources/[qb]/qb-inventory/html/images folder
 
