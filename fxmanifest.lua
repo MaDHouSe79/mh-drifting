@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'MaDHouSe'
 description 'MH Drifting'
-version '1.0'
+version '1.0.0'
 
 shared_scripts {
     '@qb-core/shared/locale.lua',
@@ -18,4 +18,5 @@ client_script {
 server_script {
     '@oxmysql/lib/MySQL.lua',
     'server/main.lua',
+    'server/update.lua',
 }
